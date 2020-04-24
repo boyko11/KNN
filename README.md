@@ -5,10 +5,19 @@ Wisconsin Breast Cancer Dataset:
 
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
-## Config
-K = 5  
+## Purpose
+Gain familiarity with the algorithm by developing it from scratch.
+Hence, best ML practices such as train/test/cross-validation splits 
+are NOT prioritized.
+
+## Implementation
 The measure is euclidean distance over normalized feature space.  
 It is weighted KNN. The closer the neighbor, the more its vote weighs.
+
+## Config
+K = 5  
+
+## Results
 
 
 Overall Accuracy: 0.970
