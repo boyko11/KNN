@@ -34,7 +34,6 @@ class Runner:
         self.report_service.report(data, predictions, labels_data, self.knn_learner)
 
 
-
 if __name__ == "__main__":
 
     Runner(normalization_method='z').run()
